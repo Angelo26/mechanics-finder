@@ -1,0 +1,132 @@
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 120px 80px 480px 380px;
+    grid-template-areas: 
+    "index-title"
+    "index-nav-menu"
+    "index-main"
+    "index-footer"; 
+}
+
+.title {
+    grid-area: index-title;
+    display: grid;
+    grid-template-columns: 83% 17%;
+    grid-template-rows: 120px;
+    grid-template-areas :
+    "header-l-pt header-contact";
+}
+
+.logo-ptitle-bar {
+    grid-area: header-l-pt;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 120px;
+    grid-template-areas : 
+    "header-logo header-pt";
+}
+
+#plogo {
+    grid-area: header-logo;
+} 
+
+#page-title {
+    grid-area: header-pt;
+}
+
+#contact {
+    grid-area: header-contact;   
+}
+
+.nav-menu {
+    grid-area: index-nav-menu;
+}
+
+main {
+    grid-area: index-main;
+    display: grid;
+    grid-template-columns: 13% 74% 13%;
+     grid-template-rows: 100%;
+     grid-template-areas: 
+     ". main-content .";
+}
+
+main .content { 
+    grid-area: main-content;
+}
+
+footer {
+    grid-area: index-footer;
+}
+
+@media (max-width: 1468px) {
+
+    .wrapper {
+        grid-template-rows: 120px 100px 600px 380px;
+    }
+}
+
+@media (max-width: 1025px) {
+
+    .wrapper {
+        grid-template-rows: 120px 100px 600px 410px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .wrapper {
+        grid-template-rows: 120px 100px 600px 870px;
+    }
+
+    .title {
+         grid-template-columns: 77% 23%;
+    }
+}
+
+
+@media (max-width: 960px) {
+    .wrapper {
+        grid-template-rows: 120px 100px 600px 870px;
+    }
+
+    .title {
+        grid-template-columns: 78% 22%;
+    }
+}
+
+@media (max-width: 725px) {
+    .wrapper {
+        grid-template-rows: 120px 100px 600px 870px;
+    }
+}
+
+
+@media (max-width: 685px) {
+    .wrapper {
+        grid-template-rows: 120px 30px 1200px 890px;
+    }
+
+    .logo-ptitle-bar {
+        grid-template-columns: 25% 75%;
+    }
+
+    .title {
+        grid-template-columns: 77% 23%;
+    }
+}
+
+@media (max-width: 420px) {
+    .wrapper {
+        grid-template-rows: 120px 30px 1200px 940px;
+    }
+}
+
+@media (max-width: 325px) {
+    .wrapper {
+        grid-template-rows: 120px 30px 1200px 980px;
+    }
+}
