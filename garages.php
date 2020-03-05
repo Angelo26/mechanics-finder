@@ -12,25 +12,21 @@
 					<li class="nav-item"><a href="index.php" class="nav-link p-3">find a mechanic</a></li>
 					<li class="nav-item"><a href="parts.php" class="nav-link p-3">parts and accessories</a></li>
 					<li class="nav-item"><a href="road.php" class="nav-link p-3" id="active">roadside assistance</a></li>
-					<li class="nav-item"><a href="mechanics.php?login=" class="nav-link p-3">for mechanics</a></li>
+					<li class="nav-item"><a href="mechanics.?login=" class="nav-link p-3">for mechanics</a></li>
 					<li class="nav-item"><a href="contact.php" class="nav-link p-3">contact us</a></li>
 				  </ul>
 			</div>
 		</div>
+		  
 	</nav> 
-	
 		<div class="container">
 			<section class="content">
-				<?php
-					$rname = $_GET['rname'];
-				?>
-                
 				<div class="top mt-4 text-center">
-					<h2><?php echo $rname;?></h2>
+					<h2> Here are some garages near your area!</h2>
 				</div>
 				<div class="map my-4 text-center">
 					<div><iframe class="gmap_canvas w-75" height="400"
-					src="https://maps.google.com/maps?q=<?php echo $rname;?>&t=&z=14&ie=UTF8&iwloc=&output=embed"
+						src="https://maps.google.com/maps?q=garages%20near%20me&t=&z=13&ie=UTF8&iwloc=&output=embed"
 						frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 		
 					</div>

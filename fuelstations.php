@@ -17,20 +17,16 @@
 				  </ul>
 			</div>
 		</div>
+		  
 	</nav> 
-	
 		<div class="container">
 			<section class="content">
-				<?php
-					$rname = $_GET['rname'];
-				?>
-                
 				<div class="top mt-4 text-center">
-					<h2><?php echo $rname;?></h2>
+					<h2> Here are some fuelstations near your area!</h2>
 				</div>
 				<div class="map my-4 text-center">
 					<div><iframe class="gmap_canvas w-75" height="400"
-					src="https://maps.google.com/maps?q=<?php echo $rname;?>&t=&z=14&ie=UTF8&iwloc=&output=embed"
+						src="https://maps.google.com/maps?q=fuel%20stations%20near%20me&t=&z=13&ie=UTF8&iwloc=&output=embed"
 						frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 		
 					</div>
