@@ -10,18 +10,18 @@
 		
 		$message = mysqli_real_escape_string($conn, $_POST['message']);
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-			header("Location: ../contact.html?Invalid_email");
+			header("Location: ../contact.php?Invalid_email");
 			exit();	
 		}		
 		else {
 			$sql = "INSERT INTO messages (fname, email, fmessage) VALUES ('$name', '$email', '$message');";
 			$result = mysqli_query($conn, $sql);
-			header("Location: ../contact.html?message_sends=Success");
+			header("Location: ../contact.php?message_sends=Success");
 			exit();
 		}
 	}
 	else {
-		header("Location: ../contact.html");
+		header("Location: ../contact.php");
 		exit();
 	}
 ?>
