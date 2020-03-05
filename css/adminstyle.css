@@ -1,0 +1,79 @@
+
+/*------------------------------------------------------------My Code-----------------------------------------------------------------------------*/
+
+* {
+	margin-top: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+
+html {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form {
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 1px 4px 8px 6px rgba(0, 0, 0, .3);
+}
+ 
+.form-group label {
+	display: block;
+	margin: 0 0 10px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+.form-group input {
+	border: none;
+	border-bottom: 2px solid skyblue;
+	margin: 0 0 10px 0;
+	width: 100%;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding: 12px 20px;
+	color: rgba(0, 0, 0, 0.6);
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: 500;
+	line-height: inherit;
+	transition: 0.3s ease;
+}
+
+.form-group input:focus {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.form-group button {
+	width: 100%;
+	border: none;
+	color: #fff;
+	font-weight: 500;
+	transition: all ease-in-out .3s;
+}
+
+.form-group button:hover {
+	background: dodgerblue;
+}
+
+.form-group .form-recovery {
+	color: dodgerblue;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.form-panel {
+	padding: 60px calc(5% + 60px) 60px 60px;
+}
+
+.form-header h1 {
+	padding: 4px 0;
+	color: dodgerblue;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+} 

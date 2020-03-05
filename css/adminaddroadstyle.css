@@ -1,0 +1,10 @@
+
+
+.add-details input {
+    font-size: 16px;
+    border: none;
+    padding: 8px;
+    border-bottom: 2px solid dodgerblue;
+    width: 50%;
+    margin-bottom: 15px;
+}

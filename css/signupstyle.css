@@ -1,0 +1,91 @@
+
+/*content*/
+ 
+.signup-area {
+    color: rgba(1, 25, 44, 0.8);
+}
+
+.actual-form div input {
+    font-size: 16px;
+    border: none;
+    width: 80%;
+    color: rgba(1, 25, 44, 0.8);
+    border-bottom: 1px solid rgba(1, 25, 44, 0.4);
+    padding: 5px;
+    margin: 0 20px 0 0;
+}
+
+.img #output_image {
+    height: 100px;
+    width: 100px;
+}
+
+.img label {
+    font-size: 14px;
+    background: rgba(1, 25, 44, 0.8);
+    color: #fff;
+    padding: 8px 6px;
+    border-radius: 2px;
+    width: 19%;
+    cursor: pointer;
+}
+
+.img input[type=file] {
+    font-size: 0;
+    display: block;
+    border: none;
+    position: absolute;
+    visibility: hidden;
+}
+
+#slct select {
+    border: none;
+    width: 85%;
+    font: 16px;
+    color: rgba(1, 25, 44, 0.7);
+    padding: 5px;
+    border-bottom: 1px solid rgba(1, 25, 44, 0.4);
+    cursor: pointer;
+}
+
+#sbutn {
+    background-color: crimson;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+}
+
+
+.login-area {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../imgs/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 460px;
+}
+
+.login-area p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.login-area .in{
+    height: 85%;
+}
+
+.login-area .sgin a{
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px 15%; 
+    transition: all ease-in-out .5s;
+}
+
+.login-area div a:hover{
+    background: rgba(1, 25, 44, 0.7);
+} 

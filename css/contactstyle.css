@@ -1,0 +1,27 @@
+/*contact-form*/
+
+.contact-form{
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    color: rgba(1, 25, 44, 0.8);
+    
+    border-radius: 3px; 
+}
+ 
+#bton{
+    background-color: #01192c;
+    color: white;
+    box-shadow: 2px 2px 3px rgba(1, 25, 44, 0.3);
+    transition: all ease-in-out .4s;
+}
+
+input[type=submit]:hover {
+    transform: translate(-1.5px,-1.5px);
+    box-shadow: 5px 5px 4px rgba(1, 25, 44, 0.3);
+}
+
+input[type=submit]:active {
+    transform: translate(1.5px, 1.5px);
+}

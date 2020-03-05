@@ -1,0 +1,32 @@
+.user{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.lbl{
+    width: 60%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.lbl label {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.lbl input,.lbl select#state {
+    font-size: 16px;
+    border: none;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid skyblue;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.update {
+    text-align: center;
+}
+
+.update .btn{
+    width: 40%;
+}

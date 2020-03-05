@@ -1,0 +1,78 @@
+
+/*content*/
+
+.login-content {
+    color: rgba(1, 25, 44,0.8);
+}
+
+.login-content form label {
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(1, 25, 44, 0.5);
+}
+
+.login-content form a {
+    font-size: 16px;
+    color: rgba(1, 25, 44, 0.6);
+    text-decoration: none;
+    cursor: pointer;
+}
+.login-content form div{
+    margin: 0 0 20px 0;
+}
+
+.login-content form div input {
+    font-size: 16px;
+    border: none;
+    color: rgba(1, 25, 44, 0.7);
+    border-bottom: 1px solid rgba(1, 25, 44, 0.5);
+    padding: 5px;
+    width: 50%; 
+}
+
+.login-content form div button {
+    background-color: rgba(1, 25, 44, 0.9);
+    color: #fff;
+    width: 50%;
+    font-size: 20px;
+    box-shadow: 4px 4px 4px rgba(1, 25, 44, 0.5);
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+}
+
+.login-content form div button:hover {
+    background-color: #01192c;
+}
+
+.signup-content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/signup.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 350px;
+}
+
+.signup-content p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.signup-content .up{
+    height: 85%;
+}
+
+.signup-content .sgup a{
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px 15%; 
+    transition: all ease-in-out .5s;
+}
+
+.signup-content div a:hover{
+    background: crimson;
+} 

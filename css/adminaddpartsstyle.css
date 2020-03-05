@@ -1,0 +1,23 @@
+
+
+div#hidden {
+    position: absolute;
+    font-size: 0;
+}
+
+.vform>label {
+    margin-top: 15px;
+}
+
+.add-details input, select {
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid skyblue;
+    width: 50%;
+}
+
+div.img,
+div#butn {
+    display: grid;
+    justify-content: center;
+}

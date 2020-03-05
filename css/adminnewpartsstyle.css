@@ -1,0 +1,21 @@
+.parts-detail label {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    margin: 0 0 10px 30px;
+}
+
+.parts-detail input {
+    font-size: 16px;
+    margin: 0 0 20px 30px;
+    color: rgba(0, 0, 0, 0.6);
+    border: none;
+    padding-left: 10px;
+    border-bottom: 2px solid skyblue;
+    width: 30%;
+}
+
+.parts-detail .btn{
+    width: 30%;
+    margin: 0 0 10px 30px;
+}

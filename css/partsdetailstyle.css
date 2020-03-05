@@ -1,0 +1,29 @@
+
+/*content*/
+
+i.fa-envelope {
+    font-size: 20px;
+} 
+
+i.fa-user-secret,
+i.fa-home,
+i.fa-map-marker,
+i.fa-location-arrow,
+i.fa-phone {
+    font-size: 24px;
+}
+
+#pd div p i {
+    margin: 0 5px 0 0; 
+}
+
+#pdbox div p {
+    margin: 24px 0;
+    font-size: 16px;
+}
+
+#gmap_canvas {
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(1, 25, 44, 0.3);
+}

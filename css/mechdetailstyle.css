@@ -1,0 +1,23 @@
+
+/*content*/
+i.fa-warehouse,
+i.fa-envelope {
+    font-size: 20px;
+} 
+
+i.fa-user-secret,
+i.fa-map-marker,
+i.fa-location-arrow,
+i.fa-phone {
+    font-size: 20px;
+}
+
+#mdbox div p {
+    font-size: 16px;
+}
+
+#gmap_canvas {
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(1, 25, 44, 0.3);
+}

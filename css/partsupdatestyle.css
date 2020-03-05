@@ -1,0 +1,19 @@
+
+.actual-form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.actual-form div input,.actual-form div select {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-bottom: 2px solid skyblue;
+    width: 40%;
+}
+ 
+.update .btn{
+    width: 40%;
+}

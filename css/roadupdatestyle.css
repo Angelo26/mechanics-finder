@@ -1,0 +1,20 @@
+
+.update-details label {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.update-details input {
+    font-size: 16px;
+    padding-left: 8px;
+    border: none;
+    border-bottom: 2px solid skyblue;
+    width: 40%;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+.update .btn{
+    width: 40%;
+}
