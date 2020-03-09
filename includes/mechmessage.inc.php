@@ -10,7 +10,6 @@
 		
         $message = mysqli_real_escape_string($conn, $_POST['message']);
         
-
         $mid = $_GET['id'];
 		$sql = "SELECT * FROM realmechanics WHERE mechanic_id='$mid';";
 		$result = mysqli_query($conn, $sql);
